@@ -1,0 +1,31 @@
+@import "variables";
+
+.lead {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.colored-hyperlink{
+	display: block;
+	color: $primary-color;
+	font-size: 16px;
+	font-weight: 700;
+
+}
+.colored-hyperlink:hover, .colored-hyperlink:focus, .colored-hyperlink:active{
+	color: $primary-dark-color;
+}
+.lesson-title{
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.step-title{
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}

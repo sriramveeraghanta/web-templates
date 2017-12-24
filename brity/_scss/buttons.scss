@@ -1,0 +1,24 @@
+@import "variables";
+
+.btn{
+	padding: 10px 20px;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+    outline-offset: 0px;
+}
+
+.btn-orange{
+	background-color: $primary-color;
+	border: 1px solid transparent;
+	color: #fff;
+	font-weight: 600;
+}
+.btn-orange.active.focus, .btn-orange.active:focus, 
+.btn-orange.active:hover, .btn-orange:active.focus,
+.btn-orange:active:focus, .btn-orange:active:hover,
+.btn-orange:focus, .btn-orange:hover, .btn-orange:active{
+	background-color: $primary-dark-color;
+	border: 1px solid $primary-color;
+	color: #fff;
+}

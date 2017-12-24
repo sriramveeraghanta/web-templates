@@ -1,0 +1,54 @@
+.hero-unit{
+	display: table;
+	position: relative;
+	width: 100%;
+	min-height: 500px;
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45));
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+}
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
+.white-container{
+	padding: 20px 40px 20px 40px;
+	background-color: #fff;
+	text-align: left;
+	box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  	border: 1px solid rgba(0,0,0,.09);
+  	border-radius: 3px;
+  	margin: 20px 0px 20px 0px;
+}
+.white-row{
+	background-color: #fff;
+	text-align: left;
+	box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  	border: 1px solid rgba(0,0,0,.09);
+  	border-radius: 3px;
+  	margin: 20px 0px 20px 0px;
+}
+.course-details{
+	padding: 20px 0px;
+	text-align: center;
+}
+.course-syllabus{
+	margin-bottom: 20px;
+}
+.step-detail{
+	margin: 10px 0px;
+}
+.list-group-underline{
+	text-decoration: none;
+	list-style: none;
+}
+.list-group-underline-item{
+	list-style: none;
+
+}
