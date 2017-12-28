@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700');
+
+html,
+body {
+  position: relative;
+  min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  background-color: #f1f6fd;
+  color: #333;
+}
+p{
+  font-weight: 300;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 500;
+}
+.navbar-transparent {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.7);
+    font-weight: 200;
+    font-size: 14px;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:active{
+  color: rgb(255,255,255);
+  font-weight: 300;
+}
+.navbar-dark{
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+}
+/*
+.navbar-white{
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.22);
+}
+.navbar-white .navbar-nav .nav-link {
+  color: #473CBA;
+}
+*/
+/* ================================================================================================ */
+/* Hero Unit */
+/* ================================================================================================ */
+.hero-unit {
+  background-color: #473CBA;
+  background-size: cover;
+}
+.hero-img{
+  width: 90%;
+}
+.text-container {
+  padding-left: 40px;
+}
+.text-container h1 {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 200;
+}
+.text-container p{
+  font-weight: 200;
+  color: rgba(255,255,255,0.8);
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .hero-img-container{
+    display: none;
+  }
+  .text-container{
+    text-align: center;
+    padding: 0px;
+  }
+}
+.flat-link{
+  color: #333;
+}
+.flat-link:hover, {
+  color: #473CBA;
+  text-decoration: none;
+}
+.box-positions{
+  border: 1px solid #eee;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22);
+}
+.box-positions p{
+  margin-bottom: 0px;
+}
+/* ================================================================================================ */
+/* Grid */
+/* ================================================================================================ */
+
+.mission-section {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/images/mission-image.jpg') center bottom;
+  background-size: cover;
+  height: 300px;
+  color: #fff;
+}
+.ser-card{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ser-card img{
+  margin-bottom: 10px;
+}
+.ser-card p{
+  color: #777;
+}
+
+.hwd-card {
+  padding: 40px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.22);
+}
+.hwd-card img{
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+}
+.hwd-card p{
+  color: #777;
+}
+
+.tech-use-cards{
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.22);
+}
+.tech-use-cards ul{
+  list-style: circle;
+  padding-left: 30px;
+}
+
+/* ================================================================================================ */
+/* services-cards */
+/* ================================================================================================ */
+
+.wwd-card {
+  background-color: #fff;
+  border: 0.3px solid #ccc;
+  padding: 30px;
+}
+
+.wwd-card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  border: 1px solid #ccc;
+  z-index: 999;
+}
+
+
+/* ================================================================================================ */
+/* Button */
+/* ================================================================================================ */
+
+.btn-light {
+  background-color: #fff;
+}
+
+.btn-rounded {
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.btn-lg-rounded {
+  padding: 15px 50px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+/* ================================================================================================ */
+/* Typography */
+/* ================================================================================================ */
+
+.text-light {
+  color: #fff;
+}
+.dash-line{
+  width: 40px;
+  height: 3px;
+  background-color: #473CBA;
+}
+
+
+.footer{
+  background-color: #212121;
+  color: rgba(255,255,255,0.75);
+  padding: 30px 0px 10px 0px;
+}
+.footer-links{
+  list-style: none;
+  color: rgba(255,255,255,0.75);
+  font-size: 14px;
+}
+.footer-links li{
+  color: rgba(255,255,255,0.75);
+}
+.footer-links li a{
+  color: rgba(255,255,255,0.75);
+  font-weight: 200;
+}
+.footer-links li a:hover, .footer-links li a:focus{
+  color: rgba(255,255,255,1);
+  text-decoration: none;
+}
